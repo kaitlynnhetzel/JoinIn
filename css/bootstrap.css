@@ -42,12 +42,18 @@ audio:not([controls]) {
 template {
   display: none;
 }
-a {
-  background-color: transparent;
+a.login{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 30px;
+  text-decoration: none;
 }
 a:active,
-a:hover {
-  outline: 0;
+.intro-header a:hover {
+  font-size: 20px;
+  font-style: bold;
 }
 abbr[title] {
   border-bottom: 1px dotted;
