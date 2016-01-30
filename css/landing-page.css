@@ -60,6 +60,10 @@ h6 {
     background-size: cover;
 }
 
+.createAcc{
+  float: left;
+}
+
 .intro-message {
     position: relative;
     padding-top: 20%;
