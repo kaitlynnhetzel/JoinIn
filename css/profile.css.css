@@ -19,6 +19,7 @@ h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+	background: #9F9B9B;
 }
 .userinfo{
 	color: #000000;
@@ -53,8 +54,8 @@ h6 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
-    background: url(../img/background2.jpg) no-repeat center center;
+    color: #f8f8f8;    
+	background: #9F9B9B;
     background-size: cover;
 }
 
