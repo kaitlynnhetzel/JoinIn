@@ -60,8 +60,16 @@ h6 {
     background-size: cover;
 }
 
-.createAcc{
+.login{
   float: left;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.createAccount{
+  float: left;
+  font-size: 48px;
+  font-weight: bold;
 }
 
 .intro-message {
