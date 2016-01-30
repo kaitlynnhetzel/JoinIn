@@ -7,18 +7,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-	
-	
-	
-	
-    <title>PittServes</title>
+    <title>JumpIn</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/profile.css.css" rel="stylesheet">
-
+    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="css/createaccount.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -45,7 +41,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">JoinIn</a>
+                <a class="navbar-brand topnav" href="#">JumpIn</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -69,34 +65,25 @@
     <div class="intro-header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-				<!--Image oriented left-->
-					<img src = "img/pittserves2.jpeg" class = "userImage">
+                <div class="col-lg-12">
+					<p class="createAcc">Create Account</p>
+                    <form class="forms">
+						<br><br>
+						<input type="text" name ="organizationname" placeholder="Organization Name">
+						<br><br>
+						<input type="text" name="email" placeholder="Email">
+						<br><br>
+						<input type ="password" name = "password" placeholder="Password">
+						<br><br>
+						<input type="password" name ="password2" placeholder="Confirm Password">
+						<br><br>
+						<input type="submit" value="submit" class="submit">
+					</form>
                 </div>
-				<div class ="col-lg-8">
-				 <!--Name-->
-					<p class="username">Pitt Serves</p>
             </div>
-
         </div>
         <!-- /.container -->
     </div>
-	</div>
-				<!-- user info -->
-				<!--will all need php to connect info-->
-				<div class="col-lg-12 user-info-container">
-								
-					<p class = "userinfo"><em>Office: </em>923 WPU</p>
-					<p class = "userinfo"><em>Office Hours: </em>M-F 8:30-5:00</p>
-					<p class = "userinfo"><em>email: </em>serve@pitt.edu </p> 
-					<p class = "userinfo"><em>Phone: </em>+1(412)624-1065</p>
-					<p class = "userinfo"><em>Upcoming Events: </em>02/01/16 - Just Harvest!</p>
-					<p class = "userinfo"><em>Past Events: </em>MLK Day of Service</p>
-					<a href= "http://www.studentaffairs.pitt.edu/pittserves">PittServes Website </a>
-			
-				
-					</div>
-				</div>
     <!-- /.intro-header -->
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
