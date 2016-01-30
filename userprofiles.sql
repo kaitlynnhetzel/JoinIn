@@ -6,9 +6,9 @@ CREATE TABLE 'JumpIn_members' (
 	'user' varchar(32) collate utf8_unicode_ci NOT NULL default '',
 	'password' varchar(32) collate utf8_unicode_ci NOT NULL default '',
 	'email' varchar(255) collate utf8_unicode_ci NOT NULL default '',
-	'regIP' varchar(15) collate utf8_unicode_ci NOT NULL default '',
-	'dt' datetime NOT NULL default '0000-00-00 00:00:00';
+	'salt' varchar(16) collate utf8_unicode_ci NOT NULL default '',
 	PRIMARY KEY ('id'),
 	UNIQUE KEY 'usr' ('usr')
+	UNIQUE KEY 'email' ('email')
 	
 ) ENGINE=myISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
