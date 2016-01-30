@@ -15,10 +15,15 @@
         } 
          
    
-        if(!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) and isEduEmail() ) 
+        if(!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) 
         { 
             die("Invalid E-Mail Address"); 
         } 
+		
+		$emailparts = explode('@',$_POST);
+		if(preg_match('pitt.edu\$/i', trim($emailParts[1])){
+			die("Invalid E-mail Address. Please sign up using your Pitt email.");
+		}
          
        
         $query = " 
