@@ -88,6 +88,9 @@ h6 {
 }
 .login-form-container{
   float: right;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottomr: 20px;
 }
 
 .intro-message{
