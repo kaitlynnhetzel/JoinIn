@@ -66,13 +66,19 @@ h6 {
   font-weight: bold;
 }
 
-.createAccount{
+.create-account-container{
   float: left;
+  text-align: left;
+}
+.create-account h1{
   font-size: 48px;
   font-weight: bold;
 }
+.create-form-container{
+  float: right;
+}
 
-.intro-message {
+.intro-message{
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
